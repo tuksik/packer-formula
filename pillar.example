@@ -1,0 +1,5 @@
+packer:
+  download:
+    url: someurl
+    hash: somehash
+  version: 0.6.1

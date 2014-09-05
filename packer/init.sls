@@ -27,7 +27,7 @@ packer:
       - archive: packer
 
 # Ensure that packer is added to the environment
-/etc/profile.d/packer-env:
+/etc/profile.d/packer-env.sh:
   file.managed:
     - contents: "export PATH=$PATH:/usr/local/bin/packer"
     - require:

@@ -5,7 +5,7 @@
     'https://dl.bintray.com/mitchellh/packer/0.6.1_linux_amd64.zip') %}
 # Use the SHA1 of the packer download to verify it's contents
 {% set packer_download_hash = packer_download.get('hash', 
-    '3a5ea4d5b8783b41e61737f3ca8b67e55ddacf9f') %}
+    'sha1=3a5ea4d5b8783b41e61737f3ca8b67e55ddacf9f') %}
 {% set packer_version = packer.get('version', '0.6.1') %}
 
 # Require the hash and the url to install packer

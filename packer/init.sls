@@ -1,4 +1,6 @@
 # vim: sts=2 ts=2 sw=2 et ai
+unzip:
+  pkg.installed
 {% set packer = pillar.get('packer', {}) %}
 {% set packer_download = packer.get('download', {}) %}
 {% set packer_download_url = packer_download.get('url', 
